@@ -1,71 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Fritzist</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
-    body {
-        color: white;
-        background-image: url("img/astronomy-dark-galaxy-4k-pc.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        font-family: 'Rowdies', cursive;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        height: 100vh;
-        justify-content: center;
-    }
-    .inner {
-        width: 100%;
-        max-width: 25em;
-        padding: 25px 0 40px;
-        background: linear-gradient(180deg, #17181c, #17181c 40%, #17181c);
-        border-radius: 10px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        color: grey;
-    }
-    .card {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: #0f1012 ;
-        border-radius: 20px;
-        cursor: pointer;
-        width: 90%;
-        height: 70px;
-        text-decoration: none;
-        margin-bottom: 10px;
-        transition:all 0.3s ease;
-    }
-    .card>img {
-        width: 50px;
-        height: 50px;
-        margin-right: 15px;
-    }
-    .card:hover {
-        background: #202226;
-    }
-    .drake:hover {
-        background-color: #660700;
-    }
-    .cat:hover {
-        background-color: rgb(63, 1, 63);
-    }
-    .github:hover {
-        background-color: rgb(68, 68, 68);
-    }
-    .discord:hover {
-        background-color: #2e3580;
-    }
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
+    <title>Fritzist</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+        body {
+            color: white;
+            background-image: url("img/astronomy-dark-galaxy-4k-pc.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Rowdies', cursive;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            height: 100vh;
+            justify-content: center;
+        }
+        .inner {
+            width: 100%;
+            max-width: 25em;
+            padding: 25px 0 40px;
+            background: linear-gradient(180deg, #17181c, #17181c 40%, #17181c);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            color: grey;
+        }
+        .card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #0f1012 ;
+            border-radius: 20px;
+            cursor: pointer;
+            width: 90%;
+            height: 70px;
+            text-decoration: none;
+            margin-bottom: 10px;
+            transition:all 0.3s ease;
+        }
+        .card>img {
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+        }
+        .card:hover {
+            background: #202226;
+        }
+        .drake:hover {
+            background-color: #660700;
+        }
+        .cat:hover {
+            background-color: rgb(63, 1, 63);
+        }
+        .github:hover {
+            background-color: rgb(68, 68, 68);
+        }
+        .discord:hover {
+            background-color: #2e3580;
+        }
 
-  </style>
+    </style>
 
 </head>
 <body>
@@ -73,11 +75,11 @@
   <div class="inner">
     <h1 style="color: grey">Fritzist</h1>
 
-      <a style="color: #5865F2" class="card discord" href="https://discord.gg/aVKAmPphnF">
+      <a style="color: #5865F2" class="card discord" target="_blank" href="https://discord.gg/aVKAmPphnF">
         <img src="img/Discord-Logo-Color.svg" alt="">Discord</a>
-    <a style="color: rgb(179, 75, 179)" class="card cat" href="https://top.gg/de/bot/845662277126717461">
+    <a style="color: rgb(179, 75, 179)" class="card cat" target="_blank" href="https://top.gg/de/bot/845662277126717461">
         <img style="border-radius: 30px;" src="img/cat.jpg" alt="">Discord-Bot</a>  
-      <a style="color: white " class="card github" href="https://github.com/Fritzist">
+      <a style="color: white " class="card github" target="_blank" href="https://github.com/Fritzist">
         <img src="img/GitHub-Mark-Light-120px-plus.png" alt="">Github</a>
     <a style="color: rgb(252, 70, 70) " class="card drake" href="https://fritzist.kotw.cf/DrakeHotWebsite/">
         <img style="border-radius: 30px;" src="img/drake.png" alt="">10 Gründe Drake</a>
