@@ -9,7 +9,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
         body {
             color: white;
-            background-image: url("img/astronomy-dark-galaxy-4k-pc.jpg");
+       
             background-repeat: no-repeat;
             background-size: cover;
             font-family: 'Rowdies', cursive;
@@ -21,6 +21,7 @@
             box-sizing: border-box;
             height: 100vh;
             justify-content: center;
+            background-color: black;
         }
         .inner {
             width: 100%;
@@ -68,9 +69,33 @@
         }
 
     </style>
-
 </head>
+
 <body>
+
+    <script>
+        const backgrounds = [
+            "bg0.jpg",
+            "bg1.jpg",
+            "bg2.jpg",
+            "bg3.jpg",
+            "bg4.jpg",
+            "bg5.jpg",
+            "bg6.jpg",
+            "bg7.jpg",
+            "bg8.jpg",
+            "bg9.jpg",
+            "bg10.jpeg",
+            "bg11.jpg",
+            "bg12.jpg",
+            "bg13.jpg",
+            "bg14.jpg",
+        ];
+        let bgnum = (parseInt(localStorage.bgnum?localStorage.bgnum:0) + 1)%backgrounds.length;
+        localStorage.bgnum = bgnum;
+        let background = backgrounds[bgnum];
+        document.querySelector("body").style = `background-image: url('bg/${background}')`;
+    </script>
 
     <div class="inner">
         <h1 style="color: grey">Fritzist</h1>
