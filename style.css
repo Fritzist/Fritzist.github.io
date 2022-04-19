@@ -74,3 +74,6 @@ body {
 .timer:hover {
     background-color: #56450e;
 }
+.snake:hover {
+    background-color: #024d2d;
+}
