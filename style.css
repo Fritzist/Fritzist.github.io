@@ -80,3 +80,6 @@ body {
 .ttt:hover {
     background-color: rgb(68, 68, 68);
 }
+.minesweeper:hover {
+    background-color: #660f01;
+}
