@@ -1,21 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
-body {
-    color: white;
 
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Rowdies', cursive;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Rowdies', cursive;
     height: 100vh;
-    justify-content: center;
     background-color: black;
 }
+
+.wrapper {
+    height: 100vh;
+    /* min-height: 100vh; */
+    overflow-y: scroll;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px 0;
+    width: 100%;
+}
+
 .inner {
+    
     width: 100%;
     max-width: 25em;
     padding: 25px 0 40px;

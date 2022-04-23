@@ -19,4 +19,4 @@ const backgrounds = [
 let bgnum = (parseInt(localStorage.bgnum?localStorage.bgnum:0) + 1)%backgrounds.length;
 localStorage.bgnum = bgnum;
 let background = backgrounds[bgnum];
-document.querySelector("body").style = `background-image: url('bg/${background}')`;
+document.body.style = `background-image: url('bg/${background}')`;
