@@ -104,3 +104,22 @@ body {
 .rock-paper-scissor:hover {
     background-color: #9c9c9c;
 }
+
+/* #button-home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    padding: 5px 10px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Rowdies', cursive;
+    transition: all 0.3s ease;
+}
+#button-home:hover {
+    color: white;
+    border-color: white;
+} */
