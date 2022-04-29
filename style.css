@@ -101,3 +101,6 @@ body {
 .minesweeper:hover {
     background-color: #660f01;
 }
+.rock-paper-scissor:hover {
+    background-color: #9c9c9c;
+}
