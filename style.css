@@ -96,7 +96,7 @@ body {
     background-color: #024d2d;
 }
 .ttt:hover {
-    background-color: rgb(68, 68, 68);
+    background-color: #dad9d7;
 }
 .minesweeper:hover {
     background-color: #660f01;
@@ -109,6 +109,10 @@ body {
 }
 .adventure:hover {
     background-color: #dad9d7;
+}
+
+.contact:hover {
+    background-color: #dad9d7a9;
 }
 
 /* #button-home {
