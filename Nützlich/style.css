@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Rowdies', cursive;
+    height: 100vh;
+    background-color: black;
+}
+
+.wrapper {
+    height: 100vh;
+    /* min-height: 100vh; */
+    overflow-y: scroll;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.inner {
+    
+    width: 100%;
+    max-width: 25em;
+    padding: 25px 0 40px;
+    background: linear-gradient(180deg, #17181c, #17181c 40%, #17181c);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: grey;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0f1012 ;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 90%;
+    height: 70px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition:all 0.3s ease;
+}
+.card>img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+.card:hover {
+    background: #202226;
+}
+.drake:hover {
+    background-color: #660700;
+}
+.cat:hover {
+    background-color: rgb(63, 1, 63);
+}
+.github:hover {
+    background-color: rgb(68, 68, 68);
+}
+.discord:hover {
+    background-color: #2e3580;
+}
+.spotifylist:hover {
+    background-color: #00a15e;
+}
+.spotify:hover {
+    background-color: #03642c;
+}
+.steam:hover {
+    background-color: #5058a8;
+}
+.calculator:hover {
+    background-color: #2c2c2c;
+}
+.timer:hover {
+    background-color: #56450e;
+}
+.snake:hover {
+    background-color: #024d2d;
+}
+.ttt:hover {
+    background-color: #dad9d7;
+}
+.minesweeper:hover {
+    background-color: #660f01;
+}
+.rock-paper-scissor:hover {
+    background-color: #9c9c9c;
+}
+.zwanzig:hover {
+    background-color: #8dc817;
+}
+.adventure:hover {
+    background-color: #dad9d7;
+}
+
+.contact:hover {
+    background-color: #dad9d7a9;
+}
+
+/* #button-home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    padding: 5px 10px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Rowdies', cursive;
+    transition: all 0.3s ease;
+}
+#button-home:hover {
+    color: white;
+    border-color: white;
+} */

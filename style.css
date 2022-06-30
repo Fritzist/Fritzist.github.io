@@ -115,6 +115,18 @@ body {
     background-color: #dad9d7a9;
 }
 
+.nützlich:hover {
+    background-color: #dad9d7a9;
+}
+
+.social:hover {
+    background-color: #ef5800a9;
+}
+
+.games:hover {
+    background-color: #dad9d7a9;
+}
+
 /* #button-home {
     position: fixed;
     top: 0;
